@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pustaka Pinjam</title>
+        <link rel="icon" type="image/x-icon" href="/public/img/logo-pustaka-pinjam-bg.png" />
+
+        <!-- Link CSS -->
+        <link rel="stylesheet" href="/public/css/style.css" />
+
+        <!-- Link Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous"
+        />
+
+        <!-- Link Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+        <!-- Link Line Icons -->
+        <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="/public/img/logo-pustaka-pinjam.png" alt="Pustaka Pinjam" class="d-inline-block align-text-top" width="120" height="70" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/tentang">Tentang Kami</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/kontak">Kontak</a>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <a class="btn-logout rounded-2 px-5 py-2 border-0 fw-semibold text-decoration-none" href="/logout">Keluar</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="fw-bold mb-3">Selamat Datang di Pustaka Pinjam</h1>
+                        <p>Platform peminjaman buku yang menyediakan layanan terbaik bagi pengguna untuk meminjam dan mengembalikan buku dengan mudah dan cepat</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="/public/img/logo-pustaka-pinjam.png" alt="Ilustrasi Pustaka Pinjam" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Keunggulan Section -->
+        <section class="features py-5">
+            <div class="container">
+                <h2 class="section-title mb-4">Keunggulan</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card feature-item text-center p-4">
+                            <i class="fas fa-book-open fa-3x mb-3"></i>
+                            <h3 class="h5">Kemudahan Akses</h3>
+                            <p class="mb-0">Kemudahan akses ke berbagai koleksi buku.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card feature-item text-center p-4">
+                            <i class="fas fa-check-circle fa-3x mb-3"></i>
+                            <h3 class="h5">Proses Mudah</h3>
+                            <p class="mb-0">Proses peminjaman dan pengembalian mudah.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card feature-item text-center p-4">
+                            <i class="fas fa-chart-line fa-3x mb-3"></i>
+                            <h3 class="h5">Pengelolaan Terbaik</h3>
+                            <p class="mb-0">Pengelolaan buku perpustakaan yang lebih baik.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card feature-item text-center p-4">
+                            <i class="fas fa-book fa-3x mb-3"></i>
+                            <h3 class="h5">Koleksi Lengkap</h3>
+                            <p class="mb-0">Koleksi buku yang lengkap dan terus diperbarui.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card feature-item text-center p-4">
+                            <i class="fas fa-lock fa-3x mb-3"></i> 
+                            <h3 class="h5">Keamanan Data</h3>
+                            <p class="mb-0">Menggunakan Database untuk Keamanan Data </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card feature-item text-center p-4">
+                            <i class="fas fa-info-circle fa-3x mb-3"></i>
+                            <h3 class="h5">Informasi Memadai</h3>
+                            <p class="mb-0">Pusat Pengetahuan Anggota Perpustakaan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Buku Section start -->
+        <section class="buku py-5">
+            <div class="container">
+                <h2 class="section-title mb-4">Buku Terbaru</h2>
+                <div class="row row-cols-md-4 g-4">
+                    {{ range .buku }}
+                    <div class="col mb-4 text-center">
+                        <div class="card h-100 shadow-sm">
+                            <img src="/image?id={{ .Id }}" class="img-fluid img-thumbnail" alt="Gambar Buku" />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">{{ .Judul }}</h5>
+                                <p class="card-text">{{ .Deskripsi }}</p>
+                                <a href="/detailpeminjaman?id={{ .Id }}" class="btn btn-primary mt-auto">Lihat Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+        <!-- Buku Section end -->
+
+        <!-- Testimonial Section -->
+        <section class="testimonial py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="h1 mb-4">Testimonial Pengguna</h2>
+                        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="card testimonial-item p-4">
+                                        <p class="mb-0">
+                                            "Pustaka Pinjam sangat membantu dalam mendapatkan referensi untuk studi saya. Proses peminjaman yang mudah membuat waktu saya lebih efisien."
+                                        </p>
+                                        <footer class="blockquote-footer mt-3">M Abduh Harry Malhotra</footer>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card testimonial-item p-4">
+                                        <p class="mb-0">"Koleksi buku yang lengkap dan fasilitas pengembalian yang teratur membuat saya lebih nyaman menggunakan Pustaka Pinjam."</p>
+                                        <footer class="blockquote-footer mt-3">Arsya Yan Duribta</footer>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                <div class="card testimonial-item p-4">
+                                    <p class="mb-0">"Pustaka Pinjam menawarkan banyak sekali koleksi buku, tentu ini sangat berguna untuk menambah pengetuan pribadi saya"</p>
+                                    <footer class="blockquote-footer mt-3">Gibran Kahlil</footer>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq py-5">
+            <div class="container mb-3">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto text-center">
+                        <h2 class="h1 mb-4">FAQ</h2>
+                        <div class="accordion" id="faqAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Bagaimana cara melakukan peminjaman buku?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">Proses peminjaman dapat dilakukan melalui platform kami dengan mengikuti langkah-langkah yang tertera di halaman peminjaman.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Apakah ada batasan jumlah buku yang dapat dipinjam?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">Setiap anggota dapat meminjam maksimal 5 buku secara bersamaan untuk memastikan ketersediaan koleksi bagi semua pengguna.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree"
+                                    >
+                                        Bagaimana cara melakukan perpanjangan masa pinjam?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Perpanjangan dapat dilakukan dengan mengunjungi halaman akun Anda dan memilih opsi perpanjangan untuk buku yang ingin Anda pertahankan lebih lama.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Keluarkan Aspirasimu Section -->
+        <!-- <section class="keluarkan-aspirasi py-5 overflow-hidden">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-duration="500">
+                        <div class="card card-keluarkan-aspirasi p-4">
+                            <h4>Masih bingung untuk menentukan pilihanmu?</h4>
+                            <a href="https://forms.gle/Ssv6QXyjy9QmzTCN7" target="_blank" class="btn btn-full btn-keluarkan-aspirasi text-decoration-none text-white"> Keluarkan Aspirasimu </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-duration="500">
+                        <img src="path/to/KeluarkanAspirasi.jpg" alt="Ilustrasi Keluarkan Aspirasimu" class="w-100" />
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Contact Section -->
+        <!-- <section class="contact py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="h1 mb-4">Hubungi Kami</h2>
+                        <p class="">Jika Anda memiliki pertanyaan atau masukan, jangan ragu untuk menghubungi tim kami.</p>
+                        <a href="mailto:info@pustakapinjam.com" class="btn btn-primary px-5 py-2 mt-3 mb-2">Hubungi Kami</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="/public/img/logo-pustaka-pinjam.png" alt="Logo Pustaka Pinjam" class="w-25" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <p class="deskripsi">
+                            Pustaka Pinjam adalah platform peminjaman buku yang menyediakan layanan terbaik bagi pengguna untuk meminjam dan mengembalikan buku dengan mudah dan cepat.
+                        </p>
+                        <div class="kontak">
+                            <a href="https://api.whatsapp.com/send?phone=6212345678910" class="text-decoration-none">
+                                <p class="m-1"><i class="lni lni-whatsapp mx-2"></i> +62 123-4567-8910</p>
+                            </a>
+                        </div>
+                        <div class="email">
+                            <a href="mailto:info@pustakapinjam.com" class="text-decoration-none">
+                                <p class="m-1"><i class="lni lni-envelope mx-2"></i> info@pustakapinjam.com</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-lg-0 mt-4">
+                        <h5>Menu</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="/" class="text-decoration-none">Beranda</a></li>
+                            <li><a href="/tentang" class="text-decoration-none">Tentang Kami</a></li>
+                            <li><a href="/faq" class="text-decoration-none">FAQ</a></li>
+                            <li><a href="/kontak" class="text-decoration-none">Kontak</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <hr />
+                        <p class="text-center">© <span id="year"></span> Pustaka Pinjam. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll to Top Button -->
+        <button onclick="topFunction()" id="myBtn"><i class="lni lni-arrow-up fw-bold"></i></button>
+
+        <!-- Bootstrap JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            document.getElementById("year").innerText = new Date().getFullYear();
+            // Button Scroll Back to Top
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () {
+                scrollFunction();
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document smoothly
+            function topFunction() {
+                // Check if smooth scrolling is supported
+                if ("scrollBehavior" in document.documentElement.style) {
+                    window.scrollTo({ top: 0, behavior: "smooth" }); // Smooth scroll to top
+                } else {
+                    window.scrollTo(0, 0); // Fallback for browsers that do not support smooth scrolling
+                }
+            }
+        </script>
+    </body>
+</html>

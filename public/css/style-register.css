@@ -1,0 +1,40 @@
+.body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(37, 42, 65);
+    /* background: linear-gradient(0deg, rgba(37, 42, 65, 1) 0%, rgba(71, 83, 140, 1) 100%); */
+    background: linear-gradient(-90deg, rgba(37, 42, 65, 1) 35%, rgba(255, 236, 67, 1) 100%);
+}
+
+.container {
+    max-width: 500px;
+}
+
+.register-card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.register-left {
+    background: #fff;
+    border-radius: 20px 0 0 20px;
+}
+
+.register-right {
+    background: linear-gradient(135deg, #ffda44, #ffe85e);
+    color: #232946;
+    border-radius: 0 20px 20px 0;
+}
+
+.btn-register {
+    background: rgba(255, 218, 68, 1);
+    color: #000;
+    transition: all 0.3s;
+}
+
+.btn-register:hover {
+    opacity: 0.8;
+}
